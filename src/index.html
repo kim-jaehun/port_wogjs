@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="한가지 사이트를 다양한 프레임워크를 통해 만들어 보는 포트폴리오 사이트입니다."/>
     <meta name="keyword" content="포트폴리오, 리액트, 뷰, 넥스트, 웹스토리보이, portfolio, react.js, vue.js, next.js, webstoryboy" />
-    <title>포트폴리오 사이트 만들기 😇 Vite-Site</title>
+    <title>김재헌의 포트폴리오</title>
 
     <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -18,20 +18,44 @@
         <a href ="#site">사이트 영역 바로가기</a>
         <a href ="#port">포트폴리오 영역 바로가기</a>
         <a href ="#contact">연락처 영역 바로가기</a>
-        <a href ="#footer">푸터 영역 바로가기</a>
+        <a href ="#footer">하단 영역 바로가기</a>
 
     </div>
     <!-- skip -->
 
-    <header id = "header">
-        header
+    <header id = "header" role="heading">
+        <div class ="header__inner">
+            <div class="header__logo">
+            <h1>
+                <a href="#">PortFolio<em>vite</em></a>
+            </h1>
+                    
+        </div>
+        
+            <nav class ="header__nav">
+                <ul>
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#skill">skill</a></li>
+                    <li><a href="#site">site</a></li>
+                    <li><a href="#port">port</a></li>
+                    <li><a href="#footer">footer</a></li>
+                </ul>
+            </nav>
+            <div class ="header__nav__mobile" id="headerToggle" aria-activedescendant="primary-menu" aria-expanded="false" role="button"> 
+                <span></span>
+            </div>
+
+        </div>
     </header>
     <!-- 헤더 -->
 
-    <main id ="main">
-        <section id ="intro">
+    <main id ="main" role="main">
+        
+    </main>
+        
+    <section id ="intro" >
             intro
-        </section>
+    </section>
     <!-- 인트로 -->
 
     <section id ="skill">
@@ -50,12 +74,7 @@
         contact
     </section>
 
-    
-    </main>
-    <!-- 메인위쪽 -->
-
-
-    <footer id ="footer">
+    <footer id ="footer" role="contentinfo">
         footer
     </footer>
     <!-- 푸터 -->
