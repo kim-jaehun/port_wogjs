@@ -23,7 +23,7 @@
     </div>
     <!-- skip -->
 
-    <header id = "header" role="heading">
+    <header id = "header" role="banner">
         <div class ="header__inner">
             <div class="header__logo">
             <h1>
@@ -37,14 +37,14 @@
                     <li><a href="#intro">intro</a></li>
                     <li><a href="#skill">skill</a></li>
                     <li><a href="#site">site</a></li>
-                    <li><a href="#port">port</a></li>
-                    <li><a href="#footer">footer</a></li>
+                    <li><a href="#port">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
                 </ul>
             </nav>
             <div 
             class ="header__nav__mobile" 
             id="headerToggle" 
-            aria-activedescendant="primary-menu" 
+            aria-controls="primary-menu" 
             aria-expanded="false" 
             role="button"
             tabindex="0"
@@ -59,15 +59,17 @@
     <main id ="main" role="main">
         <section id ="intro" >
             <div class =intro__inner>
-                port developer
-            </div>
+                <div title="intro__title">
+                    port developer    
+                </div>
             <div class ="intro_lines" aria-hidden="true">
-                <span class ="line"></span>
-                <span class ="line"></span>
-                <span class ="line"></span>
-                <span class ="line"></span>
-                <span class ="line"></span>
-                <span class ="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
             </div>
             <div class="intro__text">
                 <div class ="text">
@@ -80,31 +82,72 @@
             </div>
 
             <div class ="intro_lines bottom" aria-hidden="true">
-                <span class ="line"></span>
-                <span class ="line"></span>
-                <span class ="line"></span>
-                <span class ="line"></span>
-                <span class ="line"></span>
-                <span class ="line"></span>
+                <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
             </div>
         </section>
         <!-- 인트로 -->
 
-        <section id ="skill">
-            skill
+        <section id="skill">
+            <div class="skill__inner">
+                <h2 class="skill__title">
+                    challenge <em>나의 꿈과 도전</em>
+                </h2>
+                <div class="skill__desc">
+                    <div>
+                        <span>First</span>
+                        <h3>꿈을 설계하고 디자인하다.</h3>
+                        <p>
+                            첫번쨰 시도에서 포기하지 않으면 ,계속 시도해라.
+                            실패를 두려워 하지 말라 계속 낙담하면 이겨내지 못한다.
+                            시도하지 않으면 바뀌는게 없다. 자책하고 후회하면 그게맞는거다.
+                            용기를 얻고 나 자신을 믿어 절대 포기하지 말아라. 
+                        </p>
+                    </div>
+                    <div>
+                        <span>Second</span>
+                        <h3>아무것도 하지 않으면 바뀌는게 없으니 뭐라도 해라.</h3>
+                        <p>
+                            기회는 무언가를 해야 온다.
+                            그 기회를 어떻게 잡느냐는 사람이 하는것에 따라 달려있다.
+                            물론 운이 처음부터 좋은 사람은 없다. 단지 내가 그 운을 만들 뿐이다. 
+                            운을 만들기 위해 내가 좋아하는 일이나 내가 하고 싶은거을 토대로 만들어가면 되는것이다.
+                            실패를 하더라도 경험으로 밟고 올라서야한다. 그것만이 나의 기회를 잡는것이다.
+                            작은것이어도 상관없다. 작은 성취감으로 하나하나 해내면 언젠가 큰 기회가 온다. 
+                        </p>
+                    </div>
+                    <div>
+                        <span>Third</span>
+                        <h3>자신을 믿어라.(Be honest, trust me) 둘중ㄱㄱ</h3>
+                        <p>
+                            정직은 다른 사람보다 나에게 큰 의미를 부여해야 한다. 
+                            자신이 정직하지 않으면 진정으로 원하는 일을 열정적으로 밀고 나갈 수 없다. 
+                            마음에서 우러나오는 일을 해야 정직해지며 삶을 더 즐길 줄 알게 된다.
+                    </div>
+                </div>
+            </div>
         </section>
+        <!-- 스킬 -->
 
         <section id ="site">
             site
         </section>
+        <!-- 사이트 -->
 
         <section id ="port">
             portfolio
         </section>
+        <!-- 포트폴리오 -->
 
         <section id ="contact">
             contact
         </section>
+        <!-- 연락처 -->
     </main>
 
     <footer id ="footer" role="contentinfo">
