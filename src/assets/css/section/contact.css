@@ -10,7 +10,7 @@
     flex-direction: column;
 }
 .contact__title {
-    font-size: 10vw;
+    font-size: 3rem;
     text-transform: uppercase;
     line-height: 1;
     font-weight: 800;
@@ -30,7 +30,7 @@
     position: relative;
 }
 .contact__text .text {
-    font-size: 3vw;
+    font-size: 2vw;
     line-height: 1;
     font-weight: 900;
     text-transform: uppercase;

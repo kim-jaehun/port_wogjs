@@ -98,6 +98,81 @@
     padding: 3px 0;
     text-transform: uppercase;
 }
+.site__item.s1 .t_img1_1 {  /* 이미지1 */
+    position: absolute;
+    left: 23%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 25vh;
+    height: 50vh;
+    overflow: hidden;
+    filter: grayscale(50%);
+    transition: all 0.3s;
+}
+
+.site__item.s1:hover .t_img1_1 {   /* 이미지1*/
+    filter: grayscale(0);
+}
+
+.site__item.s1 .t_img1_2 {  /* 이미지2 */
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 25vh;
+    height: 50vh;
+    overflow: hidden;
+    filter: grayscale(50%);
+    transition: all 0.3s;
+}
+
+.site__item.s1:hover .t_img1_2 {   /* 이미지2*/
+    filter: grayscale(0);
+}
+
+
+.site__item.s1 .t_img1_3 {  /* 이미지3 */
+    position: absolute;
+    right: -3%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 25vh;
+    height: 50vh;
+    overflow: hidden;
+    filter: grayscale(50%);
+    transition: all 0.3s;
+}
+
+.site__item.s1:hover .t_img1_3 {   /* 이미지3*/
+    filter: grayscale(0);
+}
+
+.site__item.s1 .t_img1_4 {  /* 이미지3 */
+    position: absolute;
+    right: 10%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 25vh;
+    height: 50vh;
+    overflow: hidden;
+    filter: grayscale(50%);
+    transition: all 0.3s;
+}
+
+.site__item.s1:hover .t_img1_4 {   /* 이미지3*/
+    filter: grayscale(0);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 800px){
     .site__title {
