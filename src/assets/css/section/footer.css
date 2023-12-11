@@ -39,17 +39,6 @@
     padding-top: 20px;
 }
 
-/*  푸터 프로필 이미지*/
-.footer__info .left .img {
-    position: absolute;
-    border-radius: 10%;
-    width: 30vh;
-    height: 30vh;
-    
-}
-
-
-
 
 .footer__info .right {
     width: 50%;

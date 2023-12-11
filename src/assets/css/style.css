@@ -13,3 +13,79 @@
 @import url(section/port.css);
 @import url(section/contact.css);
 @import url(section/footer.css);
+
+
+
+
+/* profile */
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+#profile {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+.profile__inner {
+    max-width: 600px; /* 전체 내용의 최대 폭 지정 */
+    margin: 0 auto;
+    display: flex;
+}
+
+.profile__container {
+    display: flex;
+}
+
+.profile__left,
+.profile__right {
+    flex: 3;
+    text-align: center;
+}
+
+#profile_picture {
+    width: 100%;
+    max-width: 500px; /* 이미지 최대 폭 지정 */
+    height: auto;
+    border-radius: 8%;
+    margin-bottom: 30px;
+}
+
+h1{
+    font-weight: bold;
+}
+
+h2 {
+    margin: 10px;
+    color: #000000;
+    font-weight: bold;
+    
+}
+
+.profile__right {
+    flex: 2;
+    padding-left: 40px; /* 오른쪽 영역의 왼쪽 여백 추가 */
+}
+
+.profile__info p {
+    margin-bottom: 10px;
+    font-size: 1v;
+    text-decoration-line: underline;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+li {
+    margin-bottom: 10px;
+    text-decoration-line: underline;
+}
