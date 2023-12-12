@@ -47,7 +47,7 @@
     top: 240px;
 }
 .site__item .num {
-    font-size: 5vw;
+    font-size: 3vw;
     line-height: 1;
     font-weight: 900;
     font-family: var(--mainNum-font);
@@ -60,7 +60,7 @@
     margin-bottom: 1rem;
 }
 .site__item .text > div {
-    font-size: 3vw;
+    font-size: 2vw;
     line-height: 1;
     font-weight: 900;
     text-transform: uppercase;
@@ -90,12 +90,15 @@
     border-top: 1px solid var(--black);
     border-bottom: 1px solid var(--black);
     display: flex;
+    text-decoration: underline;
+    color:white;
+    font-weight: bold;
     justify-content: space-between;
 }
 .site__item .info span {
     font-family: var(--mainKor-font);
-    font-size: 12px;
-    padding: 3px 0;
+    font-size: 16px;
+    padding: 10px 0;
     text-transform: uppercase;
 }
 .site__item.s1 .t_img1_1 {  /* 이미지1 */
@@ -147,7 +150,7 @@
     filter: grayscale(0);
 }
 
-.site__item.s1 .t_img1_4 {  /* 이미지3 */
+.site__item.s1 .t_img1_4 {  /* 이미지4*/
     position: absolute;
     right: 10%;
     top: 60%;
@@ -164,7 +167,55 @@
 }
 
 
+.site__item.s2 .t_img2_1 {  /* 이미지1 */
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 25vh;
+    height: 50vh;
+    overflow: hidden;
+    filter: grayscale(50%);
+    transition: all 0.3s;
+}
 
+.site__item.s2 .t_img2_2 {  /* 이미지2 */
+    position: absolute;
+    left: 23%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 25vh;
+    height: 50vh;
+    overflow: hidden;
+    filter: grayscale(50%);
+    transition: all 0.3s;
+}
+
+
+.site__item.s2 .t_img2_3 {  /* 이미지3 */
+    position: absolute;
+    right: -3%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 25vh;
+    height: 50vh;
+    overflow: hidden;
+    filter: grayscale(50%);
+    transition: all 0.3s;
+}
+
+
+.site__item.s2 .t_img2_4 {  /* 이미지4*/
+    position: absolute;
+    right: 10%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 25vh;
+    height: 50vh;
+    overflow: hidden;
+    filter: grayscale(50%);
+    transition: all 0.3s;
+}
 
 
 
